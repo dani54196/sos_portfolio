@@ -1,8 +1,11 @@
 // import content
 import { useEffect } from "react";
 import { content } from "../Content";
+import { useTranslation } from "react-i18next";
+
 const Hero = () => {
   const { hero } = content;
+  const {t}=useTranslation();
 
   return (
     <section id="home" className="overflow-hidden">
@@ -17,7 +20,7 @@ const Hero = () => {
             <span className="text-dark_primary">{hero.LastName}</span>
           </h1>
         </div>
-
+        <p>{t("hero.home")}</p>
         {/* first col */}
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
           <h2>{hero.title}</h2>
