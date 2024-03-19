@@ -28,7 +28,7 @@ import Hireme_person2 from "./assets/images/Hireme/person2.png";
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
-import { BsInstagram } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsWhatsapp } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
@@ -190,23 +190,25 @@ export const content = {
     btnText: "Hire Me",
   },
   Contact: {
-    title: "Contect Me",
-    subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "softwareofsouth@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:softwareofsouth@gmail.com",
       },
       {
-        text: "+91 1234 56778",
-        icon: MdCall,
-        link: "https://wa.me/1234567890",
+        text: "+54 9 11 5116-4446",
+        icon: BsWhatsapp,
+        link: "https://wa.me/+5491151164446",
       },
       {
-        text: "codeaprogram",
+        text: "softwareofsouth",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://www.instagram.com/softwareofsouth/",
+      },{
+        text: "dani54196",
+        icon: BsGithub,
+        link: "https://github.com/dani54196",
       },
     ],
   },

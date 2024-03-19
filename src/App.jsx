@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import Hireme from "./components/Hireme";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import { useEffect } from "react";
 // Animation package
 import Aos from "aos";
@@ -30,10 +31,7 @@ const App = () => {
       <Testimonials />
       <Hireme />
       <Contact />
-      <footer className="p-3 text-center">
-        <h6 className="mb-3">Software of South</h6>
-        <p>dani54196 © All CopyRights Reserved 2024</p>
-      </footer>
+      <Footer />
     </div>
   );
 };

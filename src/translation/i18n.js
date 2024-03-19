@@ -22,6 +22,13 @@ i18n
           hero: {
             home: "Home",
           },
+          contact:{
+            title: "Contact",
+            subtitle: "Get in touch with us",
+            name: "Name",
+            menssage: "Message",
+            send: "Send"
+          }
         },
       },
       es: {
@@ -29,6 +36,13 @@ i18n
           hero: {
             home: "Inicio",
           },
+          contact:{
+            title: "Contacto",
+            subtitle: "Ponte en contacto con nosotros",
+            name: "Nombre",
+            menssage: "Mensaje",
+            send: "Enviar"
+          }
         },
       },
     },

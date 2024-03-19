@@ -2,9 +2,11 @@ import { createElement, useRef } from "react";
 import { content } from "../Content";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
   const { Contact } = content;
+  const { t } = useTranslation();
   const form = useRef();
 
   // Sending Email
@@ -13,7 +15,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-      'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY'
+      'service_l91s6ys', 'template_bve8gbn', form.current, 'RUX9nW4pQkFsYji1Q'
       )
       .then(
         (result) => {
@@ -35,10 +37,10 @@ const Contact = () => {
       <Toaster />
       <div className="md:container px-5 py-14">
         <h2 className="title !text-white" data-aos="fade-down">
-          {Contact.title}
+          {t("contact.title")}
         </h2>
         <h4 className="subtitle" data-aos="fade-down">
-          {Contact.subtitle}
+          {t("contact.subtitle")}
         </h4>
         <br />
         <div className="flex gap-10 md:flex-row flex-col">
@@ -52,7 +54,7 @@ const Contact = () => {
             <input
               type="text"
               name="from_name"
-              placeholder="Name"
+              placeholder={t("contact.name")}
               required
               className="border border-slate-600 p-3 rounded"
             />
@@ -60,13 +62,13 @@ const Contact = () => {
               type="email"
               name="user_email"
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-              placeholder="Email Id"
+              placeholder="Email"
               required
               className="border border-slate-600 p-3 rounded"
             />
             <textarea
               name="message"
-              placeholder="Message"
+              placeholder= {t("contact.menssage")}
               className="border border-slate-600 p-3 rounded h-44"
               required
             ></textarea>
@@ -74,7 +76,7 @@ const Contact = () => {
               className="btn self-start
             bg-white text-dark_primary"
             >
-              Submit
+              {t("contact.send")}
             </button>
           </form>
           <div className="flex-1 flex flex-col gap-5">
