@@ -20,7 +20,8 @@ i18n
       en: {
         translation: {
           hero: {
-            home: "Home",
+            content1: "Years of Experinse in Web development",
+            content2: "Projects Worked in our career",
           },
           contact:{
             title: "Contact",
@@ -34,7 +35,8 @@ i18n
       es: {
         translation: {
           hero: {
-            home: "Inicio",
+            content1: "Años de experiencia en desarrollo web",
+            content2: "Proyectos trabajados en nuestra carrera",
           },
           contact:{
             title: "Contacto",

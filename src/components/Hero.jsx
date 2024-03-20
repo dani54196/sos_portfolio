@@ -2,10 +2,11 @@
 import { useEffect } from "react";
 import { content } from "../Content";
 import { useTranslation } from "react-i18next";
+import wp from "../assets/images/Hero/wp.png";
 
 const Hero = () => {
   const { hero } = content;
-  const {t}=useTranslation();
+  const { t } = useTranslation();
 
   return (
     <section id="home" className="overflow-hidden">
@@ -20,27 +21,30 @@ const Hero = () => {
             <span className="text-dark_primary">{hero.LastName}</span>
           </h1>
         </div>
-        <p>{t("hero.home")}</p>
         {/* first col */}
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
           <h2>{hero.title}</h2>
           <br />
           <div className="flex justify-end">
-            <button className="btn">{hero.btnText}</button>
+            <img className="" width={250} src={wp} />
           </div>
           <div className="flex flex-col gap-10 mt-10">
-            {hero.hero_content.map((content, i) => (
-              <div
-                key={i}
-                data-aos="fade-down"
-                data-aos-delay={i * 300}
-                className={`flex items-center w-80 gap-5
-            ${i === 1 && " flex-row-reverse text-right"}  `}
-              >
-                <h3>{content.count}</h3>
-                <p>{content.text}</p>
-              </div>
-            ))}
+            <div
+              data-aos="fade-down"
+              data-aos-delay={1 * 300}
+              className={"flex items-center w-80 gap-5"}
+            >
+              <h3>+3</h3>
+              <p>{t("hero.content1")}</p>
+            </div>
+            <div
+              data-aos="fade-down"
+              data-aos-delay={1 * 300}
+              className={" flex-row-reverse text-right"}
+            >
+              <h3>+30</h3>
+              <p>{t("hero.content2")}</p>
+            </div>
           </div>
         </div>
 

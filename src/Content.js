@@ -1,5 +1,5 @@
 // import images
-import Hero_person from "./assets/images/Hero/person.png";
+import LogoSoS from "./assets/images/Hero/logo.png";
 
 import figma from "./assets/images/Skills/figma.png";
 import sketch from "./assets/images/Skills/sketch.png";
@@ -61,18 +61,7 @@ export const content = {
     title: "Web Developen & SRE",
     firstName: "Software ",
     LastName: "of South",
-    btnText: "Hire Me",
-    image: Hero_person,
-    hero_content: [
-      {
-        count: "8+",
-        text: "Years of Experinse in Web development",
-      },
-      {
-        count: "20+",
-        text: "Projects Worked in my career",
-      },
-    ],
+    image: LogoSoS,
   },
   skills: {
     title: "Skills",
@@ -205,7 +194,8 @@ export const content = {
         text: "softwareofsouth",
         icon: BsInstagram,
         link: "https://www.instagram.com/softwareofsouth/",
-      },{
+      },
+      {
         text: "dani54196",
         icon: BsGithub,
         link: "https://github.com/dani54196",
