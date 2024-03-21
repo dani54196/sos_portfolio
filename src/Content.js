@@ -1,17 +1,6 @@
 // import images
 import LogoSoS from "./assets/images/Hero/logo.png";
 
-import nodejs from "./assets/images/Skills/node.png";
-import reactjs from "./assets/images/Skills/react.png";
-import golang from "./assets/images/Skills/golang.png";
-import web from "./assets/images/Skills/web.png";
-import aws from "./assets/images/Skills/aws.png";
-import backend from "./assets/images/Skills/backend.png";
-
-import services_logo1 from "./assets/images/Services/logo1.png";
-import services_logo2 from "./assets/images/Services/logo2.png";
-import services_logo3 from "./assets/images/Services/logo3.png";
-
 import project1 from "./assets/images/projects/img1.png";
 import project2 from "./assets/images/projects/img2.png";
 import project3 from "./assets/images/projects/img3.png";
@@ -62,25 +51,6 @@ export const content = {
     firstName: "Software ",
     LastName: "of South",
     image: LogoSoS,
-  },
-  services: {
-    service_content: [
-      {
-        title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo1,
-      },
-      {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo2,
-      },
-      {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo3,
-      },
-    ],
   },
   Projects: {
     title: "Projects",

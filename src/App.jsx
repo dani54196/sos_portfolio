@@ -1,4 +1,3 @@
-// import components
 import Hero from "./components/Hero";
 import Navbar from "./Layouts/Navbar";
 import Skills from "./components/Skills";
@@ -25,8 +24,8 @@ const App = () => {
     <div className="">
       <Navbar />
       <Hero />
-      <Skills />
       <Service />
+      <Skills />
       <Projects />
       <Testimonials />
       <Hireme />

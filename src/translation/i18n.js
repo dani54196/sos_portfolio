@@ -23,10 +23,24 @@ i18n
             content1: "Years of Experinse in Web development",
             content2: "Projects Worked in our career",
           },
+          services: {
+            title: "Services",
+            subtitle: "MY SERVICES",
+            title1: "Web Development",
+            para1:
+              "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+            title2: "Backend & Database",
+            para2:
+            "Backend & Database, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+            title3: "Cloud Services",
+            para3:
+              "Cloud Services, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+          },
           skills: {
             title: "Skills",
             subtitle: "MY TOP SKILLS",
             aws: "Use Cloud Services",
+            node: "develop backend",
           },
           contact: {
             title: "Contact",
@@ -34,10 +48,6 @@ i18n
             name: "Name",
             menssage: "Message",
             send: "Send",
-          },
-          services: {
-            title: "Services",
-            subtitle: "MY SERVICES",
           },
         },
       },
@@ -47,10 +57,24 @@ i18n
             content1: "Años de experiencia en desarrollo web",
             content2: "Proyectos trabajados en nuestra carrera",
           },
+          services: {
+            title: "Servicios",
+            subtitle: "MIS SERVICIOS",
+            title1: "Desarrollo web",
+            para1:
+              "En publicaciones y diseño gráfico, Lorem ipsum es un texto de relleno comúnmente utilizado para demostrar la forma visual de un documento que depende de la media",
+            title2: "Backend & Base de datos",
+            para2:
+              "Backend & Base de datos, Lorem ipsum es un texto de relleno comúnmente utilizado para demostrar la forma visual de un documento que depende de la media",
+            title3: "Servicios en la nube",
+            para3:
+              "Servicios en la nube, Lorem ipsum es un texto de relleno comúnmente utilizado para demostrar la forma visual de un documento que depende de la media",
+          },
           skills: {
             title: "Habilidades",
             subtitle: "MIS HABILIDADES PRINCIPALES",
             aws: "Uso de servicios en la nube",
+            node: "desarrollar backend",
           },
           contact: {
             title: "Contacto",
@@ -58,10 +82,6 @@ i18n
             name: "Nombre",
             menssage: "Mensaje",
             send: "Enviar",
-          },
-          services: {
-            title: "Servicios",
-            subtitle: "MIS SERVICIOS",
           },
         },
       },
