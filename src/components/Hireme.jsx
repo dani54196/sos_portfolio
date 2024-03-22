@@ -32,7 +32,7 @@ const Hireme = () => {
             className="border-2 border-dark_primary max-w-sm
            p-6 shadow-sm rounded-xl rounded-br-[8rem] sm:min-w-[22rem]"
           >
-            <p className="leading-7">{Hireme.para}</p>
+            <p className="leading-7">{t("hireMe.para")}</p>
             <br />
             <button className="btn bg-dark_primary text-white">
               {Hireme.btnText}

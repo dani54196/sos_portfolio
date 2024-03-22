@@ -51,11 +51,10 @@ i18n
             title: "Testimonials",
             subtitle: "MY CLIENT REVIEWS",
           },
-          hireMe:{
+          hireMe: {
             title: "Hire Me",
             subtitle: "Ready to work together?",
-            para:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            para: "I offer professional and customized services, guaranteeing the reliability and efficiency of your website. My focus on performance optimization and security ensures exceptional results and a high-quality user experience.",
           },
           contact: {
             title: "Contact",
@@ -100,11 +99,10 @@ i18n
             title: "Testimonios",
             subtitle: "MIS RESEÑAS DE CLIENTES",
           },
-          hireMe:{
+          hireMe: {
             title: "Contrátame",
             subtitle: "¿Listo para trabajar juntos?",
-            para:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            para: "Ofrezco servicios profesionales y personalizados, garantizando la confiabilidad y eficiencia de su sitio web. Mi enfoque en la optimización del rendimiento y la seguridad garantiza resultados excepcionales y una experiencia del usuario de alta calidad.",
           },
           contact: {
             title: "Contacto",
