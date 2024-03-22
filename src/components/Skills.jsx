@@ -9,7 +9,6 @@ import react from "../assets/images/Skills/react.png";
 import go from "../assets/images/Skills/golang.png";
 import wordpress from "../assets/images/Skills/wordpress.png";
 
-
 const customStyles = {
   content: {
     top: "50%",
@@ -32,7 +31,6 @@ const Skills = () => {
 
   return (
     <section className="min-h-fit" id="skills">
-      {/* content */}
       <div className="md:container px-5  py-14">
         <h2 className="title" data-aos="fade-down">
           {t("skills.title")}
@@ -42,7 +40,6 @@ const Skills = () => {
         </h4>
         <br />
         <div className="flex flex-wrap gap-4 justify-center">
-          {/* /// */}
           <div
             data-aos="fade-up"
             data-aos-delay={1 * 200}
@@ -62,7 +59,6 @@ const Skills = () => {
               <p className="italic">{t("skills.aws")}</p>
             </div>
           </div>
-          {/* /// */}
           <div
             data-aos="fade-up"
             data-aos-delay={2 * 200}
@@ -82,7 +78,6 @@ const Skills = () => {
               <p className="italic">{t("skills.node")}</p>
             </div>
           </div>
-          {/* /// */}
           <div
             data-aos="fade-up"
             data-aos-delay={3 * 200}
@@ -99,10 +94,9 @@ const Skills = () => {
             </div>
             <div>
               <h6>React</h6>
-              <p className="italic">{t("skills.aws")}</p>
+              <p className="italic">{t("skills.react")}</p>
             </div>
           </div>
-          {/* /// */}{" "}
           <div
             data-aos="fade-up"
             data-aos-delay={4 * 200}
@@ -119,10 +113,9 @@ const Skills = () => {
             </div>
             <div>
               <h6>Go</h6>
-              <p className="italic">{t("skills.aws")}</p>
+              <p className="italic">{t("skills.go")}</p>
             </div>
           </div>
-          {/* /// */}{" "}
           <div
             data-aos="fade-up"
             data-aos-delay={5 * 200}
@@ -139,10 +132,9 @@ const Skills = () => {
             </div>
             <div>
               <h6>Wordpress</h6>
-              <p className="italic">{t("skills.aws")}</p>
+              <p className="italic">{t("skills.wordpress")}</p>
             </div>
           </div>
-          {/* /// */}
         </div>
       </div>
     </section>

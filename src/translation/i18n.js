@@ -28,19 +28,23 @@ i18n
             subtitle: "MY SERVICES",
             title1: "Web Development",
             para1:
-              "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+              "Our web development service offers professional and customized solutions to create attractive and functional websites. From planning and design to implementation and maintenance, we focus on meeting your goals and exceeding your expectations.",
             title2: "Backend & Database",
             para2:
-              "Backend & Database, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+              "With our backend service, we ensure efficient and secure operation of your application or website. We take care of business logic, data management, and security, ensuring optimal performance and a seamless experience for end users.",
             title3: "Cloud Services",
             para3:
-              "Cloud Services, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+              "Our cloud service allows you to make the most of cloud computing technologies to improve the scalability, availability, and security of your applications and data. We handle the migration, management, and optimization of your cloud infrastructure so you can focus on growing your business.",
           },
           skills: {
             title: "Skills",
             subtitle: "MY TOP SKILLS",
-            aws: "Use Cloud Services",
-            node: "develop backend",
+            aws: "AWS cloud infrastructure implementation and management.",
+            node: "Efficient backend for modern web applications.",
+            react: "Development of interactive and responsive user interfaces.",
+            go: "Development of high-performance and concurrency applications.",
+            wordpress:
+              "Websites using WordPress, including themes and plugins.",
           },
           projects: {
             title: "Projects",
@@ -76,19 +80,24 @@ i18n
             subtitle: "MIS SERVICIOS",
             title1: "Desarrollo web",
             para1:
-              "En publicaciones y diseño gráfico, Lorem ipsum es un texto de relleno comúnmente utilizado para demostrar la forma visual de un documento que depende de la media",
+              "Nuestro servicio de desarrollo web ofrece soluciones personalizadas y profesionales para crear sitios web atractivos y funcionales. Desde la planificación y el diseño hasta la implementación y el mantenimiento, nos enfocamos en cumplir con tus objetivos y superar tus expectativas.",
             title2: "Backend & Base de datos",
             para2:
-              "Backend & Base de datos, Lorem ipsum es un texto de relleno comúnmente utilizado para demostrar la forma visual de un documento que depende de la media",
+              "Con nuestro servicio de backend, garantizamos un funcionamiento eficiente y seguro de tu aplicación o sitio web. Nos encargamos de la lógica de negocio, la gestión de datos y la seguridad, asegurando un rendimiento óptimo y una experiencia sin problemas para los usuarios finales.",
             title3: "Servicios en la nube",
             para3:
-              "Servicios en la nube, Lorem ipsum es un texto de relleno comúnmente utilizado para demostrar la forma visual de un documento que depende de la media",
+              "Nuestro servicio en la nube te permite aprovechar al máximo las tecnologías de computación en la nube para mejorar la escalabilidad, la disponibilidad y la seguridad de tus aplicaciones y datos. Nos encargamos de la migración, la gestión y la optimización de tu infraestructura en la nube para que puedas centrarte en hacer crecer tu negocio.",
           },
           skills: {
             title: "Habilidades",
             subtitle: "MIS HABILIDADES PRINCIPALES",
-            aws: "Uso de servicios en la nube",
-            node: "desarrollar backend",
+            aws: " Implementación y gestión de infraestructuras en la nube AWS.",
+            node: "Backend eficiente para aplicaciones web modernas.",
+            react:
+              "Desarrollo de interfaces de usuario interactivas y receptivas.",
+            go: "Desarrollo de aplicaciones de alto rendimiento y concurrencia.",
+            wordpress:
+              "Sitios web utilizando WordPress, incluyendo temas y plugins.",
           },
           projects: {
             title: "Proyectos",

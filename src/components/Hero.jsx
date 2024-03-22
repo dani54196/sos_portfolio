@@ -53,8 +53,8 @@ const Hero = () => {
           <img
             src={hero.image}
             data-aos="slide-up"
-            alt="..."
-            className="h-full object-cover"
+            alt="software of south logo"
+            className="object-cover"
           />
         </div>
       </div>
