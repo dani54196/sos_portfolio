@@ -69,6 +69,10 @@ export const content = {
         title: "Creative Website",
         image: project3,
       },
+      {
+        title: "And More...",
+        image: project2,
+      },
     ],
   },
   Testimonials: {

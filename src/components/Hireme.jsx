@@ -1,16 +1,17 @@
 import { content } from "../Content";
+import { useTranslation } from "react-i18next";
 
 const Hireme = () => {
   const { Hireme } = content;
-
+  const { t } = useTranslation();
   return (
     <section className="bg-bg_light_primary">
       <div className="md:container px-5 pt-14">
         <h2 className="title" data-aos="fade-down">
-          {Hireme.title}
+          {t("hireMe.title")}
         </h2>
         <h4 className="subtitle" data-aos="fade-down">
-          {Hireme.subtitle}
+          {t("hireMe.subtitle")}
         </h4>
         <br />
         <div className="flex items-center md:flex-row flex-col-reverse ">

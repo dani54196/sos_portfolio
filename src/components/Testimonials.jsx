@@ -1,6 +1,7 @@
 import { content } from "../Content";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useTranslation } from "react-i18next";
 
 // Import Swiper styles
 import "swiper/css";
@@ -10,16 +11,17 @@ import { Pagination } from "swiper";
 import { useState } from "react";
 
 const Testimonials = () => {
+  const { t } = useTranslation();
   const { Testimonials } = content;
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <section>
       <div className="md:container px-5 pt-14">
         <h2 className="title" data-aos="fade-down">
-          {Testimonials.title}
+          {t("testimonial.title")}
         </h2>
         <h4 className="subtitle" data-aos="fade-down">
-          {Testimonials.subtitle}
+          {t("testimonial.subtitle")}
         </h4>
         <br />
         <Swiper

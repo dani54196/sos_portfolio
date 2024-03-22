@@ -31,7 +31,7 @@ i18n
               "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
             title2: "Backend & Database",
             para2:
-            "Backend & Database, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+              "Backend & Database, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
             title3: "Cloud Services",
             para3:
               "Cloud Services, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
@@ -41,6 +41,21 @@ i18n
             subtitle: "MY TOP SKILLS",
             aws: "Use Cloud Services",
             node: "develop backend",
+          },
+          projects: {
+            title: "Projects",
+            subtitle: "MY RECENT WORKS",
+            readMore: "READ MORE",
+          },
+          testimonial: {
+            title: "Testimonials",
+            subtitle: "MY CLIENT REVIEWS",
+          },
+          hireMe:{
+            title: "Hire Me",
+            subtitle: "Ready to work together?",
+            para:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
           },
           contact: {
             title: "Contact",
@@ -75,6 +90,21 @@ i18n
             subtitle: "MIS HABILIDADES PRINCIPALES",
             aws: "Uso de servicios en la nube",
             node: "desarrollar backend",
+          },
+          projects: {
+            title: "Proyectos",
+            subtitle: "MIS TRABAJOS RECIENTES",
+            readMore: "SABER MÁS",
+          },
+          testimonial: {
+            title: "Testimonios",
+            subtitle: "MIS RESEÑAS DE CLIENTES",
+          },
+          hireMe:{
+            title: "Contrátame",
+            subtitle: "¿Listo para trabajar juntos?",
+            para:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
           },
           contact: {
             title: "Contacto",
