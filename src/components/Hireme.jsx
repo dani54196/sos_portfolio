@@ -19,13 +19,13 @@ const Hireme = () => {
             src={Hireme.image1}
             alt="..."
             data-aos="fade-right"
-            className="max-w-sm md:block hidden"
+            className="max-w-sm md:block hidden m-4"
           />
           <img
             src={Hireme.image2}
             data-aos="fade-up"
             alt="..."
-            className="max-w-sm md:hidden"
+            className="max-w-sm md:hidden m-4"
           />
           <div
             data-aos="fade-left"

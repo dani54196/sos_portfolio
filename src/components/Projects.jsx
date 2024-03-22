@@ -28,8 +28,9 @@ const Projects = () => {
           <img
             src={Projects.image}
             alt="..."
+            width={300}
             data-aos="fade-right"
-            className="max-w-[45vw] min-w-[22rem]"
+            className="max-w-[45vw] min-w-[22rem] m-4 p-3"
           />
           <Swiper
             pagination={{

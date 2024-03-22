@@ -31,7 +31,7 @@ const Skills = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="min-h-fit bg-bg_light_primary" id="skills">
+    <section className="min-h-fit" id="skills">
       {/* content */}
       <div className="md:container px-5  py-14">
         <h2 className="title" data-aos="fade-down">

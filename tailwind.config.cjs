@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     fontFamily: {
       Poppins: "Poppins",
-      Paprika: "Paprika",
-      Inria: "Inria Serif",
+      Paprika: "Padauk",
+      Inria: "Anaheim",
     },
     container: {
       center: true,
@@ -16,6 +16,7 @@ module.exports = {
         dark_primary: "#06223F",
         bg_light_primary: "#F5F9FD",
         gray: "#B7C5D3",
+        //logo_color: #2c3e50,
       },
       backgroundImage: {
         primaryLinear: "linear-gradient(180deg, #B6CCF5 0.48%, #D5E3F1 100%)",
