@@ -9,7 +9,6 @@
   },
   "license": "MIT",
   "description": "Software of South portfolio",
-  "homepage": "https://dani54196.github.io/sos_portfolio",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",

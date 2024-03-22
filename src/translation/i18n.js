@@ -49,7 +49,7 @@ i18n
           projects: {
             title: "Projects",
             subtitle: "MY RECENT WORKS",
-            readMore: "READ MORE",
+            readMore: "GO TO SITE",
           },
           testimonial: {
             title: "Testimonials",
@@ -102,7 +102,7 @@ i18n
           projects: {
             title: "Proyectos",
             subtitle: "MIS TRABAJOS RECIENTES",
-            readMore: "SABER MÁS",
+            readMore: "IR AL SITIO",
           },
           testimonial: {
             title: "Testimonios",

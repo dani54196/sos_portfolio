@@ -13,7 +13,6 @@ import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
 import support from "./assets/images/Hireme/support.png";
 
-
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
@@ -58,20 +57,19 @@ export const content = {
     image: sign,
     project_content: [
       {
-        title: "Gym Website",
+        title: "Ubro",
         image: project1,
+        link: "https://www.ubronline.com",
       },
       {
-        title: "Social Media web",
+        title: "Estudio Juridico CH",
         image: project2,
+        link: "https://www.abogadoschyasociados.com/",
       },
       {
-        title: "Creative Website",
+        title: "And More",
         image: project3,
-      },
-      {
-        title: "And More...",
-        image: project2,
+        link: "https://www.github.com/dani54196",
       },
     ],
   },
