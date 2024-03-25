@@ -15,7 +15,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-      'service_l91s6ys', 'template_bve8gbn', form.current, 'RUX9nW4pQkFsYji1Q'
+        import.meta.env.VITE_SERVICE, import.meta.env.VITE_TEMPLATE, form.current, import.meta.env.VITE_APP
       )
       .then(
         (result) => {
@@ -68,7 +68,7 @@ const Contact = () => {
             />
             <textarea
               name="message"
-              placeholder= {t("contact.menssage")}
+              placeholder={t("contact.menssage")}
               className="border border-slate-600 p-3 rounded h-44"
               required
             ></textarea>
