@@ -5,4 +5,4 @@ const fetchInstagramPosts = async () => {
   return data.data;
 };
 
-export { fetchInstagramPosts };
+export default fetchInstagramPosts;

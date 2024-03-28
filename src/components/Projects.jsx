@@ -1,7 +1,10 @@
 import { content } from "../Content";
-// Import Swiper React components
+import React, { useEffect } from "react";
+//Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useTranslation } from "react-i18next";
+
+import instagram from "../Utility/intagram";
 
 // Import Swiper styles
 import "swiper/css";
@@ -10,6 +13,7 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper";
 
 const Projects = () => {
+
   const { Projects } = content;
   const { t } = useTranslation();
   return (
