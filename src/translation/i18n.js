@@ -20,8 +20,9 @@ i18n
       en: {
         translation: {
           hero: {
-            content1: "Years of Experinse in Web development",
-            content2: "Projects Worked in our career",
+            title: "Software development & digital solutions",
+            content:
+              "Our focus is on providing comprehensive and customized solutions for businesses and enterprises worldwide. We take pride in offering a full suite of services that span from design and implementation to maintenance and continuous growth of your digital applications and platforms.",
           },
           services: {
             title: "Services",
@@ -72,8 +73,9 @@ i18n
       es: {
         translation: {
           hero: {
-            content1: "Años de experiencia en desarrollo web",
-            content2: "Proyectos trabajados en nuestra carrera",
+            title: "Desarrollo de software y soluciones digitales",
+            content:
+              "Nuestro enfoque está en proporcionar soluciones completas y personalizadas para empresas y negocios en todo el mundo. Nos enorgullece ofrecer un conjunto completo de servicios que abarcan desde el diseño y la implementación hasta el mantenimiento y el crecimiento continuo de tus aplicaciones y plataformas digitales.",
           },
           services: {
             title: "Servicios",
