@@ -16,7 +16,7 @@ import support from "./assets/images/Hireme/support.png";
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
-import { BsGithub, BsInstagram, BsWhatsapp } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsWhatsapp,BsTwitterX } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
@@ -124,7 +124,7 @@ export const content = {
         link: "https://wa.me/+5491151164446",
       },
       {
-        text: "softwareofsouth",
+        text: "@softwareofsouth",
         icon: BsInstagram,
         link: "https://www.instagram.com/softwareofsouth/",
       },
@@ -132,6 +132,11 @@ export const content = {
         text: "dani54196",
         icon: BsGithub,
         link: "https://github.com/dani54196",
+      },
+      {
+        text: "@softwareofsouth",
+        icon: BsTwitterX,
+        link: "https://x.com/softwareofsouth",
       },
     ],
   },

@@ -58,7 +58,7 @@ i18n
           hireMe: {
             title: "Hire Me",
             subtitle: "Ready to work together?",
-            para: "I offer professional and customized services, guaranteeing the reliability and efficiency of your website. My focus on performance optimization and security ensures exceptional results and a high-quality user experience.",
+            para: "At Software of the South, we are committed to providing quality technology solutions that drive the growth and efficiency of your business. Contact us today to start your digital journey!",
           },
           contact: {
             title: "Contact",
@@ -111,7 +111,7 @@ i18n
           hireMe: {
             title: "Contrátame",
             subtitle: "¿Listo para trabajar juntos?",
-            para: "Ofrezco servicios profesionales y personalizados, garantizando la confiabilidad y eficiencia de su sitio web. Mi enfoque en la optimización del rendimiento y la seguridad garantiza resultados excepcionales y una experiencia del usuario de alta calidad.",
+            para: "En Software of the South, estamos comprometidos en ofrecer soluciones tecnológicas de calidad que impulsen el crecimiento y la eficiencia de tu negocio. ¡Contáctanos hoy para comenzar tu viaje digital!",
           },
           contact: {
             title: "Contacto",
