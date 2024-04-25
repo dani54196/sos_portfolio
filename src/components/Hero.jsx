@@ -2,7 +2,6 @@
 import { useEffect } from "react";
 import { content } from "../Content";
 import { useTranslation } from "react-i18next";
-import wp from "../assets/images/Hero/wp.png";
 
 const Hero = () => {
   const { hero } = content;
