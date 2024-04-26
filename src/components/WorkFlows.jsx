@@ -13,8 +13,8 @@ import {
 } from "@chakra-ui/react";
 
 const steps = [
-  { title: "First", description: "Analisis Funcional" },
-  { title: "Second", description: "Planeamiento y Desarrollo" },
+  { title: "First", description: "Primer contacto, Requerimientos, Analisis Funcional" },
+  { title: "Second", description: "Planeamiento, arquitectura y Desarrollo" },
   { title: "Third", description: "Despliegue y Mantenimiento" },
 ];
 

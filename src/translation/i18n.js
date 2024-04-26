@@ -58,8 +58,10 @@ i18n
           },
           pay: {
             paymethos: "Payment methods",
-            reci: "If you are from Argentina, pay in installments, we also issue invoices.",
+            reci: "We accept multiple payment methods. If you are in Argentina, you can pay in installments. We also issue invoices.",
+            tsaas: "Software as a Service (SaaS) or Subscription model",
             saas: "We offer the possibility of contracting software development as a service through a subscription. This allows you to use the software when you need it, without having to pay extra. It is a flexible solution that adapts to your needs and gives you access to quality software without the need for a significant initial investment.",
+            tadvice: "Legal Advice",
             advice:
               "We provide legal advice to draft user contracts, terms of use, data policies, and legal conditions. Our services guarantee the correct drafting and legal adequacy of these documents, providing you with peace of mind and legal security in your operations and services.",
           },
@@ -119,8 +121,10 @@ i18n
           },
           pay: {
             paymethos: "Métodos de pago",
-            reci: "Si sos de argentina paga en cuotas, tambien emitimos facturas.",
+            reci: "Recibimos múltiples medios de pago. Si estás en Argentina, puedes pagar en cuotas. También emitimos facturas.",
+            tsaas: "Software como Servicio (SaaS) o Modelo de suscripción",
             saas: "Ofrecemos la posibilidad de contratar el desarrollo de software como un servicio mediante una suscripción. Esto te permite utilizar el software cuando lo necesites, sin tener que pagar de más. Es una solución flexible que se adapta a tus necesidades y te brinda acceso a un software de calidad sin la necesidad de una inversión inicial significativa.",
+            tadvice: "Asesoramiento legal",
             advice:
               "Proporcionamos asesoramiento legal para redactar contratos de usuario, términos de uso, políticas de datos y condiciones legales. Nuestros servicios garantizan la correcta redacción y adecuación legal de estos documentos, brindándote tranquilidad y seguridad jurídica en tus operaciones y servicios.            ",
           },

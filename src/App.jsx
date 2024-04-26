@@ -27,12 +27,12 @@ const App = () => {
     <div className="">
       <Navbar />
       <Hero />
-      <Pay />
       <Service />
       <WorkFlows />
       <Skills />
       <Projects />
-      <Testimonials />
+      <Pay />
+      {/* <Testimonials /> */}
       <Hireme />
       <Contact />
       <Footer />

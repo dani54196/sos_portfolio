@@ -17,7 +17,7 @@ const Hero = () => {
       </div>
 
       <div className="md:w-1/2 text-center md:text-left">
-        <h2 className="text-2xl md:text-4xl font-bold">{t("hero.title")}</h2>
+        <h1 className="text-4xl md:text-5xl font-bold">{t("hero.title")}</h1>
         <br />
         <p className="text-lg md:text-xl">{t("hero.content")}</p>
       </div>
