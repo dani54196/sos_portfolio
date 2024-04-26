@@ -10,10 +10,15 @@ import {
   Stepper,
   useSteps,
   Box,
+  Container,
 } from "@chakra-ui/react";
 
 const steps = [
-  { title: "First", description: "Primer contacto, Requerimientos, Analisis Funcional" },
+  {
+    title: "First",
+    description:
+      "lorem15 Lorem ipsum dolor sit amet consectetur adipisicing elorem15 Lorem ipsum dolor sit amet consectetur adipisicing el lorem15 Lorem ipsum dolor sit amet consectetur adipisicing elorem15 Lorem ipsum dolor sit amet consectetur adipisicing el",
+  },
   { title: "Second", description: "Planeamiento, arquitectura y Desarrollo" },
   { title: "Third", description: "Despliegue y Mantenimiento" },
 ];
@@ -26,27 +31,36 @@ const WorkFlows = () => {
 
   return (
     <>
-    <h2>WorkFlows</h2>
-      <Stepper className="p-5" index={activeStep} orientation="vertical" height="400px" gap="0">
-        {steps.map((step, index) => (
-          <Step key={index}>
-            <StepIndicator>
-              <StepStatus
-                complete={<StepIcon />}
-                incomplete={<StepNumber />}
-                active={<StepNumber />}
-              />
-            </StepIndicator>
+      <h2 className="text-center" >WorkFlows</h2>
+      <Container maxW="95%">
+        <Stepper
+          className="p-2"
+          index={activeStep}
+          orientation="vertical"
+          height="300px"
+          gap="0"
+          w="full"
+        >
+          {steps.map((step, index) => (
+            <Step key={index}>
+              <StepIndicator>
+                <StepStatus
+                  complete={<StepIcon />}
+                  incomplete={<StepNumber />}
+                  active={<StepNumber />}
+                />
+              </StepIndicator>
 
-            <Box flexShrink="0">
-              <StepTitle>{step.title}</StepTitle>
-              <StepDescription>{step.description}</StepDescription>
-            </Box>
+              <Box flexShrink="0" w="full">
+                <StepTitle>{step.title}</StepTitle>
+                <StepDescription>{step.description}</StepDescription>
+              </Box>
 
-            <StepSeparator />
-          </Step>
-        ))}
-      </Stepper>
+              <StepSeparator />
+            </Step>
+          ))}
+        </Stepper>
+      </Container>
     </>
   );
 };
