@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import {
   Step,
   StepDescription,
@@ -13,25 +14,18 @@ import {
   Container,
 } from "@chakra-ui/react";
 
-const steps = [
-  {
-    title: "First",
-    description:
-      "lorem15 Lorem ipsum dolor sit amet consectetur adipisicing elorem15 Lorem ipsum dolor sit amet consectetur adipisicing el lorem15 Lorem ipsum dolor sit amet consectetur adipisicing elorem15 Lorem ipsum dolor sit amet consectetur adipisicing el",
-  },
-  { title: "Second", description: "Planeamiento, arquitectura y Desarrollo" },
-  { title: "Third", description: "Despliegue y Mantenimiento" },
-];
+
 
 const WorkFlows = () => {
+  const { t } = useTranslation();
   const { activeStep } = useSteps({
     index: 1,
-    count: steps.length,
+    count: t("workFlow.step", { returnObjects: true }).length,
   });
 
   return (
     <>
-      <h2 className="text-center" >WorkFlows</h2>
+      <h2 className="text-center">{t("workFlow.title")}</h2>
       <Container maxW="95%">
         <Stepper
           className="p-2"
@@ -41,7 +35,7 @@ const WorkFlows = () => {
           gap="0"
           w="full"
         >
-          {steps.map((step, index) => (
+          {t("workFlow.step", { returnObjects: true }).map((step, index) => (
             <Step key={index}>
               <StepIndicator>
                 <StepStatus

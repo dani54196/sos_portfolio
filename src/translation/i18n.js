@@ -65,6 +65,27 @@ i18n
             advice:
               "We provide legal advice to draft user contracts, terms of use, data policies, and legal conditions. Our services guarantee the correct drafting and legal adequacy of these documents, providing you with peace of mind and legal security in your operations and services.",
           },
+          workFlow: {
+            title: "Workflows",
+            step: [
+              {
+                title: "First Step",
+                description: "Functional Analysis, Design & Project Planning",
+              },
+              {
+                title: "Second Step",
+                description: "Planning, Architecture & Development",
+              },
+              {
+                title: "Third Step",
+                description: "Deployment & Functioning",
+              },
+              {
+                title: "Fourth Step",
+                description: "Maintenance & Continuous Growth if required",
+              },
+            ],
+          },
           hireMe: {
             title: "Hire Me",
             subtitle: "Ready to work together?",
@@ -127,6 +148,29 @@ i18n
             tadvice: "Asesoramiento legal",
             advice:
               "Proporcionamos asesoramiento legal para redactar contratos de usuario, términos de uso, políticas de datos y condiciones legales. Nuestros servicios garantizan la correcta redacción y adecuación legal de estos documentos, brindándote tranquilidad y seguridad jurídica en tus operaciones y servicios.            ",
+          },
+          workFlow: {
+            title: "Flujos de trabajo",
+            step: [
+              {
+                title: "Primer paso",
+                description:
+                  "Análisis funcional, Diseño y Planeamiento del proyecto",
+              },
+              {
+                title: "Segundo paso",
+                description: "Desarrollo, Implementación y Testing",
+              },
+              {
+                title: "Tercer paso",
+                description: "Despliegue y Funcionamiento",
+              },
+              {
+                title: "Cuarto paso",
+                description:
+                  "Mantenimiento y Crecimiento continuo si lo requiere",
+              },
+            ],
           },
           hireMe: {
             title: "Contrátame",
