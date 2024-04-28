@@ -9,7 +9,7 @@ import { LiaFileContractSolid } from "react-icons/lia";
 const Pay = () => {
   const { t } = useTranslation();
   return (
-    <>
+    <section className="md:container px-2 py-14">
       <div className="flex flex-col md:flex-row">
         <div className="basis-1/2 p-2">
           <h2 className="title text-center">{t("pay.paymethos")}</h2>
@@ -20,11 +20,11 @@ const Pay = () => {
             <FaMoneyBillTransfer size={52} />
             <FaRegCreditCard size={52} />
           </div>
-          <p className="p-2">{t("pay.reci")}</p>
+          <p className="p-5">{t("pay.reci")}</p>
         </div>
         <div className="basis-1/2 p-2">
           <h2 className="title text-center py-2">{t("pay.tsaas")}</h2>
-          <p>{t("pay.saas")}</p>
+          <p className="p-5">{t("pay.saas")}</p>
         </div>
       </div>
 
@@ -35,7 +35,7 @@ const Pay = () => {
         </div>
         <p className="p-5">{t("pay.advice")}</p>
       </div>
-    </>
+    </section>
   );
 };
 

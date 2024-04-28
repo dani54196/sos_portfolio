@@ -14,8 +14,6 @@ import {
   Container,
 } from "@chakra-ui/react";
 
-
-
 const WorkFlows = () => {
   const { t } = useTranslation();
   const { activeStep } = useSteps({
@@ -24,8 +22,8 @@ const WorkFlows = () => {
   });
 
   return (
-    <>
-      <h2 className="text-center">{t("workFlow.title")}</h2>
+    <section className="md:container px-5 py-14">
+      <h2 className="text-center title p-4">{t("workFlow.title")}</h2>
       <Container maxW="95%">
         <Stepper
           className="p-2"
@@ -55,7 +53,7 @@ const WorkFlows = () => {
           ))}
         </Stepper>
       </Container>
-    </>
+    </section>
   );
 };
 
