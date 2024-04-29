@@ -37,7 +37,7 @@ const Hireme = () => {
             <p className="leading-7">{t("hireMe.para")}</p>
             <br />
             <button className="btn bg-dark_primary text-white">
-              {Hireme.btnText}
+              Agendar una reunión
             </button>
           </div>
         </div>

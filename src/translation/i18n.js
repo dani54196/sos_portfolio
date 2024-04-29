@@ -100,6 +100,7 @@ i18n
           },
         },
       },
+
       es: {
         translation: {
           hero: {
@@ -110,15 +111,22 @@ i18n
           services: {
             title: "Servicios",
             subtitle: "MIS SERVICIOS",
-            title1: "Desarrollo web",
+            open: "Abrir",
+            close: "Cerrar",
+            title1: "Frontend",
             para1:
               "Nuestro servicio de desarrollo web ofrece soluciones personalizadas y profesionales para crear sitios web atractivos y funcionales. Desde la planificación y el diseño hasta la implementación y el mantenimiento, nos enfocamos en cumplir con tus objetivos y superar tus expectativas.",
+            modal1:
+              "☁️ Generación de sitios estáticos altamente personalizables. \n☁️ Uso de tecnologías modernas como React para un control total sobre los componentes y la interfaz de usuario. \n☁️ Integración con API de terceros para ampliar la funcionalidad, enlaces a redes sociales, mapas y más. \n☁️ Soporte para múltiples idiomas. \n☁️ Garantía de que todos nuestros sitios son responsivos y compatibles con dispositivos móviles, computadoras y tablets.",
             title2: "Backend & Base de datos",
             para2:
               "Con nuestro servicio de backend, garantizamos un funcionamiento eficiente y seguro de tu aplicación o sitio web. Nos encargamos de la lógica de negocio, la gestión de datos y la seguridad, asegurando un rendimiento óptimo y una experiencia sin problemas para los usuarios finales.",
-            title3: "Servicios en la nube",
+            modal2:
+              "☁️ Diseño y modelado de bases de datos.\n☁️ Implementación de sentencias SQL y gestión de backups.\n☁️ Migración de datos desde hojas de cálculo a aplicaciones.\n☁️ Despliegue en la nube privada, con opciones tanto para bases de datos relacionales como no relacionales.\n☁️ Creación de APIs robustas y escalables.\n☁️ Implementación de patrones de diseño para una arquitectura eficiente.\n☁️ Autenticación segura y verificación de datos.\n☁️ Uso de librerías modernas y documentación clara.\n☁️ Pruebas unitarias y de integración, junto con la integración de servicios de terceros como MercadoPago y generación de QRs.\n☁️ Implementación de servicios serverless para una mayor eficiencia y escalabilidad. ",
+            title3: "DevOps & Cloud",
             para3:
               "Nuestro servicio en la nube te permite aprovechar al máximo las tecnologías de computación en la nube para mejorar la escalabilidad, la disponibilidad y la seguridad de tus aplicaciones y datos. Nos encargamos de la migración, la gestión y la optimización de tu infraestructura en la nube para que puedas centrarte en hacer crecer tu negocio.",
+            modal3:"☁️ Pruebas de vulnerabilidad para proteger contra inyecciones SQL y otros ataques.\n☁️ Implementación de firewalls y prevención de ataques DDOS.\n☁️ Configuración avanzada de DNS y protocolos de comunicación seguros.\n☁️ Implementación de prácticas de CI/CD para un crecimiento continuo y seguro.\n☁️ Automatización del proceso de desarrollo, pruebas y despliegue.\n☁️ Despliegue de aplicaciones en múltiples nubes y contenedorización de aplicaciones en diferentes lenguajes de programación y bases de datos.\n☁️ Configuración de servidores de correo.\n☁️ Certificados SSL.\n☁️ Configuracion DNS.\n☁️ Implementación de servidores para aplicaciones basadas en WordPress.\n☁️ Desarrollo de microservicios y uso de tecnologías serverless.\n☁️ Experiencia en AWS y configuración de reverse proxies para optimizar costos y escalabilidad en la nube."
           },
           skills: {
             title: "Habilidades",
