@@ -26,7 +26,7 @@ const Hireme = () => {
             src={Hireme.image2}
             data-aos="fade-up"
             alt="..."
-            width="80%"
+            width="50%"
             className="max-w-sm md:hidden m-4"
           />
           <div
@@ -37,7 +37,7 @@ const Hireme = () => {
             <p className="leading-7">{t("hireMe.para")}</p>
             <br />
             <button className="btn bg-dark_primary text-white">
-              Agendar una reunión
+              <a href="https://calendly.com/softwareofsouth" target="_blank" rel="noopener noreferrer">{t("hireMe.book")}</a>
             </button>
           </div>
         </div>

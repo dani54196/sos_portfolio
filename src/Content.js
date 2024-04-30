@@ -4,6 +4,7 @@ import LogoSoS from "./assets/images/Hero/logo.png";
 import project1 from "./assets/images/projects/img1.png";
 import project2 from "./assets/images/projects/img2.png";
 import project3 from "./assets/images/projects/img3.png";
+import project4 from "./assets/images/projects/img4.png";
 import sign from "./assets/images/projects/sign.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -60,6 +61,11 @@ export const content = {
         title: "Ubro",
         image: project1,
         link: "https://www.ubronline.com",
+      },
+      {
+        title: "Chino Pandarin",
+        image: project4,
+        link: "https://danicardozo.me/chino-pandarin-bootstrap/",
       },
       {
         title: "Estudio Juridico CH",

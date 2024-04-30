@@ -1,5 +1,5 @@
 import Hero from "../components/Hero.jsx";
-import Skills from "../components/Skills";
+import Saas from "../components/Saas";
 import Service from "../components/Services";
 import Projects from "../components/Projects";
 import Testimonials from "../components/Testimonials";
@@ -14,7 +14,7 @@ const Home = () => {
       <Hero />
       <Service />
       <WorkFlows />
-      <Skills />
+      <Saas />
       <Projects />
       <Pay />
       {/* <Testimonials /> */}
