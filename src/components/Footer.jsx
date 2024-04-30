@@ -14,10 +14,12 @@ const Footer = () => {
         <Link to="/terms" className="mb-2">
           Terminos y Condiciones
         </Link>
-        <Link to="/questions" className="mb-2">
+        {/* <Link to="/questions" className="mb-2">
           Preguntas Frecuentes
-        </Link>
-        <p className="mb-2">Defensa de las y los consumidores. Para reclamos </p>
+        </Link> */}
+        <p className="mb-2">
+          Defensa de las y los consumidores. Para reclamos{" "}
+        </p>
         <a
           href="https://autogestion.produccion.gob.ar/consumidores"
           className="mb-2"
