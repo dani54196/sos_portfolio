@@ -3,6 +3,14 @@ import { content } from "../Content";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { createElement } from "react";
 import LanguageSwitcher from "../components/LanguageSwitcher";
+import { Link } from "react-router-dom";
+
+import { TbSmartHome } from "react-icons/tb";
+import { FaCode } from "react-icons/fa6";
+
+import { BiUser } from "react-icons/bi";
+import { BiBriefcase } from "react-icons/bi";
+import { MdOutlinePermContactCalendar } from "react-icons/md";
 
 const Navbar = () => {
   const { nav } = content;
@@ -22,7 +30,28 @@ const Navbar = () => {
           showMenu ? "bottom-10" : "bottom-[-100%]"
         }`}
       >
-        {nav.map((item, i) => (
+        <Link to="/" className="text-xl p-2.5 rounded-full sm:cursor-pointer">
+          {createElement(TbSmartHome)}
+        </Link>
+        <a
+          href="#services"
+          className="text-xl p-2.5 rounded-full sm:cursor-pointer"
+        >
+          {createElement(FaCode)}
+        </a>
+        <a
+          href="#projects"
+          className="text-xl p-2.5 rounded-full sm:cursor-pointer"
+        >
+          {createElement(BiBriefcase)}
+        </a>
+        <a
+          href="#contact"
+          className=" text-xl p-2.5 rounded-full sm:cursor-pointer"
+        >
+          {createElement(MdOutlinePermContactCalendar)}
+        </a>
+        {/* {nav.map((item, i) => (
           <a
             key={i}
             href={item.link}
@@ -33,7 +62,7 @@ const Navbar = () => {
           >
             {createElement(item.icon)}
           </a>
-        ))}
+        ))} */}
         <LanguageSwitcher />
       </nav>
     </div>
