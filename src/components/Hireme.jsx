@@ -37,7 +37,7 @@ const Hireme = () => {
             <p className="leading-7">{t("hireMe.para")}</p>
             <br />
             <button className="btn bg-dark_primary text-white">
-              <a href="https://calendly.com/softwareofsouth" target="_blank" rel="noopener noreferrer">{t("hireMe.book")}</a>
+              <a href="https://calendar.app.google/8DvsFoLd9RZtsPHT9" target="_blank" rel="noopener noreferrer">{t("hireMe.book")}</a>
             </button>
           </div>
         </div>
