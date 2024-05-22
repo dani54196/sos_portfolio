@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 import bot from "../assets/images/Saas/bot.png";
 import party from "../assets/images/Saas/party.png";
 import memory from "../assets/images/Saas/memory.png";
-import running from "../assets/images/Saas/running.png";
+import running from "../assets/images/Saas/inscription.png";
 
 const customStyles = {
   content: {
@@ -55,8 +55,10 @@ const Saas = () => {
               />
             </div>
             <div>
-              <h6>Bot</h6>
-              <p className="italic">{t("saas.wpBot")}</p>
+              <a href="https://wa.me/+5491151164446" target="_black">
+                <h6>Bot</h6>
+                <p className="italic">{t("saas.wpBot")}</p>
+              </a>
             </div>
           </div>
         </div>
@@ -77,7 +79,7 @@ const Saas = () => {
               />
             </div>
             <div>
-              <h6>Party</h6>
+              <h6>Party Invitations</h6>
               <p className="italic">{t("saas.event")}</p>
             </div>
           </div>
@@ -99,7 +101,7 @@ const Saas = () => {
               />
             </div>
             <div>
-              <h6>Party</h6>
+              <h6>Party Memory</h6>
               <p className="italic">{t("saas.memory")}</p>
             </div>
           </div>
@@ -121,12 +123,13 @@ const Saas = () => {
               />
             </div>
             <div>
-              <h6>Party</h6>
-              <p className="italic">{t("saas.marathonInscription")}</p>
+              <a href="https://danicardozo.me/sport-manager/" target="_blank">
+                <h6>Sport Manage</h6>
+                <p className="italic">{t("saas.marathonInscription")}</p>
+              </a>
             </div>
           </div>
         </div>
-
       </div>
     </section>
   );
