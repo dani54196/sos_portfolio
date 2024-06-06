@@ -15,7 +15,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        import.meta.env.VITE_MAIL_SERVICE, import.meta.env.VITE_MAIL_TEMPLATE, form.current, import.meta.env.VITE_MAIL_APP
+        "service_31ncid9", "template_bve8gbn", form.current, "RUX9nW4pQkFsYji1Q"
       )
       .then(
         (result) => {
