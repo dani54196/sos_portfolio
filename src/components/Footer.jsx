@@ -29,12 +29,12 @@ const Footer = () => {
       </div>
       <div className="data-fiscal ">
         <a
-          href="http://qr.afip.gob.ar/?qr=EGp1_Oq1RjHRDhXXQs6DuA,,"
+          href="http://qr.afip.gob.ar/?qr=iuCbY7GD9u_RMDQaynLhIg,,"
           target="_F960AFIPInfo"
         >
           <img
             src="http://www.afip.gob.ar/images/f960/DATAWEB.jpg"
-            alt="Data Fiscal"
+            alt="AFIP Info"
             className="mb-2"
             width={100}
           />
